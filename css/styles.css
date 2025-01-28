@@ -1,0 +1,206 @@
+body {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-inline: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: pink;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .menu-toggle {
+        border: none;
+        background: none;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        color: #488df4;
+        font-size: 36px;
+        font-weight: 700;
+        width: 302px;
+        margin-inline: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin: 5px;
+    }
+
+    img:first-of-type {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+
+    }
+
+    .presentation {
+        article {
+            width: 100vw;
+            height: 248px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+
+            img {
+                width: 76px;
+                height: 68.04px;
+                margin: 20px;
+            }
+        }
+
+        .Apprentissage {
+            background-color: #38c4c1;
+            color: #42434b;
+
+        }
+
+        .Philosophie {
+            background-color: #feca02;
+            color: #ffffff;
+        }
+
+        .Pratique {
+            background-color: #fe7ec9;
+            color: #42434b;
+        }
+
+        .Jeux {
+            background-color: #488df4;
+            color: #42434b;
+        }
+    }
+
+    .propos {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #42434b;
+
+        >p,
+        h3 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #000000;
+        }
+
+        >img {
+            height: 425px;
+            margin-bottom: 15px;
+        }
+
+        article {
+            margin-bottom: 15px;
+            height: 248px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        .enseignants {
+            background-color: #38c4c281;
+
+            p {
+                color: #000000;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 10px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #38c4c1;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+        .mission {
+            background-color: #fe7ec936;
+
+            p {
+                color: #000000;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 10px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fe7ec9;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+        .capuche {
+            width: 100%;
+            height: 261px;
+            aspect-ratio: 1 / 1;
+        }
+
+        .pastel {
+            width: 100%;
+            height: 275px;
+            aspect-ratio: 1 / 1;
+        }
+    }
+}
+
+footer {
+    font-family: "Kumbh Sans", serif;
+    background-color: #333;
+    width: 100vw;
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 5px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
