@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,13 +23,30 @@
         <button class="menu-toggle" aria-label="toggle navigation">
             <a href="#"><img src="image/icon/Vector.png" alt="bouton burger"></a>
         </button>
+
+        <div class="open">
+            <button class="close" aria-label="close navigation">X</button>
+            <nav>
+                <ul>
+                    <li><a href="#top"> Accueil</a></li>
+                    <li><a href="#propos">A propos</a></li>
+                    <li><a href="#"> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay"></div>
+
     </header>
     <main>
-        <h1>qui a dit que l'école était ennuyeuse</h1>
-        <h2>On joue et on apprend</h2>
-        <img src="image/489b62460b198bac0e715bfedc44a0c3.jpg"
-            alt="photo d'un enfant adossé a un mur portant son cartable">
-        <section class="presentation">
+        <section class="hero">
+            <div class="one">
+                <h1>qui a dit que l'école était ennuyeuse ?</h1>
+                <h2>On joue et on apprend</h2>
+            </div>
+            <div class="two">
+                <img class="kids" src="image/489b62460b198bac0e715bfedc44a0c3.jpg"
+                    alt="photo d'un enfant adossé a un mur portant son cartable">
+            </div>
             <article class="Apprentissage">
                 <img src="image/icon/Book.png" alt="icone livre">
                 <h3> Apprentissage</h3>
@@ -43,10 +64,11 @@
                 <h3>Jeux</h3>
             </article>
         </section>
-
-        <section class="propos"> 
-            <p>A PROPOS</p>
-            <h2>Meilleure école primaire</h2>
+        <section class="propos">
+            <div class="row1">
+                <p>A PROPOS</p>
+                <h2>Meilleure école primaire</h2>
+            </div>
             <img src="image/image 2 enfant pull jaune.jpg" alt="mage d'un enfant s'amusant avec un oeil en plastique">
             <article class="enseignants">
                 <img src="image/icon/Frame 1.png" alt="logo enseignants">
@@ -56,15 +78,15 @@
                 <a href="#"> EN SAVOIR PLUS</a>
             </article>
             <article class="mission">
-                <img src="image/icon/Frame 2.png" alt="logo diamant">
+                <img class="jaune" src="image/icon/Frame 2.png" alt="logo diamant">
                 <h3>NOTRE MISSION</h3>
                 <p>sample text. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quia dolores
                     consequatur, excepturi animi odio.</p>
                 <a href="#"> EN SAVOIR PLUS</a>
             </article>
-                <img class="capuche" src="image/image 3 capuche.jpg"
-                    alt="Image d'une fille avec une capuche transparente et des oreilles">
-                <img class="pastel" src="image/image 4.jpg" alt="mage d'un garcon blond sur un fond pastel">
+            <img class="capuche" src="image/image 3 capuche.jpg"
+                alt="Image d'une fille avec une capuche transparente et des oreilles">
+            <img class="pastel" src="image/image 4.jpg" alt="mage d'un garcon blond sur un fond pastel">
         </section>
     </main>
     <footer>
